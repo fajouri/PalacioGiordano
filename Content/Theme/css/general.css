@@ -77,9 +77,11 @@ margin: auto;
 	font-family: arvo;
 	font-weight: 300;
 	letter-spacing: 6px;
+	background-color: #286f81;
 }
 
-.h3_home{font-weight: 300;}
+.h3_home{font-weight: 300;
+	background-color: #286f81;}
 
 /*own carousel */
 
@@ -108,7 +110,10 @@ opacity: 0.95 !important;
 filter: alpha(opacity=95) !important;
 }
 
-/* .item .img-responsive {cursor:url(../img/cross.png),auto;} */
+.item .img-responsive {
+	width: 256px;
+	height: auto;	
+} 
 
 /* Preloader */
 #preloader {
@@ -246,9 +251,9 @@ color: #ECEBEB;
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	/* color: #f8f8f8; */
-	color: black;
+	color: whitesmoke;
 	background: url(../img/intro/Museo-di-Capodimonte_Andy-Warhol_Vesuvius-di-.L.Romano.jpg) no-repeat center center;
-	background-size: cover;
+	/* background-size: cover; */
 	text-align: center;
 }
 
@@ -1061,7 +1066,7 @@ color: #ECEBEB;
 
 /* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		.intro-header {
+		/* .intro-header {
 			height: 100%;
 			padding-top: 50px;
 			padding-bottom: 50px;
@@ -1071,7 +1076,7 @@ color: #ECEBEB;
 			text-align: center;
 			background-color: #34495e;
 		}
-		
+		 */
 		h1, .h1 {
 			font-size: 50px;
 		}

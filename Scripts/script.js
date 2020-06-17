@@ -27,7 +27,7 @@ $(document).ready(function() {
 		//Wow Animation DISABLE FOR ANIMATION MOBILE/TABLET
 		wow = new WOW(
 		{
-			mobile: false
+			mobile: true
 		});
 		wow.init();
 		
@@ -39,6 +39,7 @@ $(document).ready(function() {
 		$("#owl-demo").owlCarousel({
 			autoPlay: 3000,
 			items : 3,
+			navigation : false, 
 			itemsDesktop : [1199,3],
 			itemsDesktopSmall : [979,3]
 		});

@@ -137,7 +137,8 @@ padding: 8px 12px;
 	text-align: center;
 }
 #owl-example .item img{
-	width: auto;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	display: block;
 }
