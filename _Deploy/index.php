@@ -19,7 +19,7 @@
 
     <!-- Custom Google Web Font -->
     <link href="Content/Theme/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    
+
     <!-- Custom CSS-->
     <link href="Content/Theme/css/general.css" rel="stylesheet">
 
@@ -42,7 +42,7 @@
 	<div id="preloader">
 		<div id="status"></div>
 	</div>
-	
+
 <!-- FullScreen -->
 <div class="intro-header">
     <div class="col-xs-12 text-center abcen1">
@@ -85,7 +85,7 @@
                 <li class="menuItem"><a href="#serviziextra">Servizi extra</a></li>
                 <li class="menuItem"><a href="#dovesiamo">Dove siamo</a></li>
                 <li class="menuItem"><a href="#contati">Contatti</a></li>
-     
+
             </ul>
         </div>
 
@@ -194,6 +194,12 @@
                         <img class="img-responsive img-rounded" src="Content/Theme/img/camere/20.jpg" alt="Owl Image">
                     </div>
                 </a>
+
+                <a href="Content/Theme/img/camere/99.jpg" class="image-link">
+                    <div class="item">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/99.jpg" alt="Owl Image">
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -213,34 +219,34 @@
         <div class="row">
 	        <div class="col-sm-6 pull-left wow fadeInLeftBig">
 			    <div id="owl-demo-1" class="owl-carousel">
-                    <a href="Content/Theme/img/camere/2.jpg" class="image-link">
+                    <a href="Content/Theme/img/camere/foto/camere1.JPG" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/2.jpg" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere1.JPG" alt="Owl Image">
                         </div>
                     </a>
-                    <a href="Content/Theme/img/camere/4.jpg" class="image-link">
+                    <!-- <a href="Content/Theme/img/camere/foto/camere2.png>" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/4.jpg" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/22.jpg" alt="Owl Image">
+                        </div>
+                    </a> -->
+                    <a href="Content/Theme/img/camere/foto/camere3.JPG" class="image-link">
+                        <div class="item">
+                            <img class="img-rounded" src="Content/Theme/img/camere/foto/camere3.JPG" alt="Owl Image">
                         </div>
                     </a>
-                    <a href="Content/Theme/img/camere/6.jpg" class="image-link">
+                    <a href="Content/Theme/img/camere/foto/camere4.JPG" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/6.jpg" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere4.JPG" alt="Owl Image">
                         </div>
                     </a>
-                    <a href="Content/Theme/img/camere/10.jpg" class="image-link">
+                    <!-- <a href="Content/Theme/img/camere/foto/camere5.JPG" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/10.jpg" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere5.JPG" alt="Owl Image">
                         </div>
-                    </a>
-                    <a href="Content/Theme/img/camere/22.jpg" class="image-link">
+                    </a> -->
+                    <a href="Content/Theme/img/camere/foto/camere6.JPG" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/22.jpg" alt="Owl Image">
-                        </div>
-                    </a>
-                    <a href="Content/Theme/img/camere/7.jpg" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/7.jpg" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere6.JPG" alt="Owl Image">
                         </div>
                     </a>
                     <a href="Content/Theme/img/camere/15.jpg" class="image-link">
@@ -257,7 +263,7 @@
                                     <li><i class="glyphicon glyphicon-leaf"></i>Appartamenti per fino a 6 persone</li>
                                     <li><i class="glyphicon glyphicon-leaf"></i>Cambio asciugamani ogni 3 giorni</li>
                                     <li><i class="glyphicon glyphicon-leaf"></i>Cambio lenzuola dopo 7 giorni</li>
-                                    
+
                                 </ul>
                                 <h3>Confort</h3>
                                 <ul class="descp lead2">
@@ -300,9 +306,9 @@
             <div class="col-sm-3 wow fadeInDown text-center">
                 <img class="rotate" src="Content/Theme/img/icon/casino.svg" alt="Giochi di società">
                 <h3>Giochi di società</h3>
-                <p class="lead">hahah</p>
+                <p class="lead"></p>
             </div>
-            
+
             <div class="col-sm-3 wow fadeInDown text-center">
                 <img class="rotate" src="Content/Theme/img/icon/pet.jpg" alt="Pet friendly">
                 <h3>Pet friendly</h3>
@@ -319,25 +325,34 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center wrap_title">
                 <h2>Dove siamo</h2>
-                <p class="lead" style="margin-top:0">nel cuore di Sangiuseppe</p>
+                <p class="lead" style="margin-top:0">nel cuore di San Giuseppe</p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6 wow " style="max-width: 100%">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.5612087949366!2d14.501679415756481!3d40.83760077931837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133bba9c543cc489%3A0xa9457eff9cac7078!2sPalazzo%20Giordano!5e0!3m2!1sen!2sit!4v1592300743376!5m2!1sen!2sit" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <a href="https://goo.gl/maps/Cn2tSv6p1ut2Wgg5A">
+                <img src="Content/Theme/img/map.jpg" alt="palazzo giordano map">
+            </a>
             </div>
             <div class="col-sm-6 wow fadeInRightBig">
                 <h3>Attrazioni popolari</h3>
                 <ul class="descp lead2">
-                    <li><i class="glyphicon glyphicon-leaf"></i>Napoli</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Salerno</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Vesuvio</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Scavi di Pompei</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Napoli 29km</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Salerno 28km</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Vesuvio 26km</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Scavi di Pompei 10km</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Scavi di Ercolano 25km</li>
                     <li><i class="glyphicon glyphicon-leaf"></i>Circuito Internazionale di Napoli 7,7 km  </li>
+                </ul>
+                <h3>In zona</h3>
+                <ul class="descp lead2">
+                    <li><i class="glyphicon glyphicon-leaf"></i>Stazione circumvesuviana 400m 6 min</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Istituto Paritario Enrico de Nicola 350m 5 min</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Casa di Salute Santa Lucia 750m 10 min</li>
                 </ul>
             </div>
 		</div>
-		
+
 	</div>
 </div>
 
@@ -350,7 +365,7 @@
 
             <div class="col-md-6 col-md-offset-3 text-center wrap_title">
                 <h2>Contatti</h2>
-            </div>			
+            </div>
         	<form role="form" action="mail.php" method="POST" >
 				<div class="col-md-6">
 					<div class="form-group">
@@ -360,7 +375,7 @@
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
-					
+
 					<div class="form-group">
 						<label for="InputEmail">Email</label>
 						<div class="input-group">
@@ -368,7 +383,7 @@
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
-					
+
 					<div class="form-group">
 						<label for="InputMessage">Mesaggio</label>
 						<div class="input-group">
@@ -380,7 +395,7 @@
 					<input type="submit" name="submit" id="submit" value="Invio" class="btn wow tada btn-embossed btn-primary pull-right">
 				</div>
 			</form>
-			
+
 			<div class="col-md-5 col-md-push-1 address">
 				<address>
 					<h3>Email</h3>
@@ -402,13 +417,13 @@
 <footer>
     <div class="container">
         <div class="row">
-             <div class="col-md-7"> 
-                <h3 class="footer-title"></h3> 
-                <p> 
+             <div class="col-md-7">
+                <h3 class="footer-title"></h3>
+                <p>
                 </p>
                 by fajouri.
-             </div> 
-             <div class="col-md-5">              
+             </div>
+             <div class="col-md-5">
             </div>
         </div>
     </div>
@@ -425,13 +440,13 @@
 	  jQuery(function($) {
 		$(document).ready( function() {
 		  $('.navbar-default').stickUp();
-		  
+
 		});
 	  });
-	
+
 	</script>
 	<!-- Smoothscroll -->
-	<script type="text/javascript" src="Scripts/jquery.corner.js"></script> 
+	<script type="text/javascript" src="Scripts/jquery.corner.js"></script>
 	<script src="Scripts/wow.min.js"></script>
 	<script>
 	 new WOW().init();
@@ -439,6 +454,6 @@
 	<script src="Scripts/classie.js"></script>
 	<script src="Scripts/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
-	<script src="Scripts/jquery.magnific-popup.js"></script> 
+	<script src="Scripts/jquery.magnific-popup.js"></script>
 </body>
 <Html>

@@ -331,7 +331,7 @@
         <div class="row">
             <div class="col-sm-6 wow " style="max-width: 100%">
             <a href="https://goo.gl/maps/Cn2tSv6p1ut2Wgg5A">
-                <img src="Content/Theme/img/map.jpg" alt="palazzo giordano map">
+                <img class="img-responsive" src="Content/Theme/img/map.jpg" alt="palazzo giordano map">
             </a>
             </div>
             <div class="col-sm-6 wow fadeInRightBig">
