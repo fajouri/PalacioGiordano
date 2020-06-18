@@ -435,7 +435,7 @@
 
     <!-- JavaScript -->
     <script src="Scripts/jquery-1.10.2.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
 	<script src="Scripts/owl.carousel.js"></script>
 	<script src="Scripts/script.js"></script>
 	<!-- StikyMenu -->
