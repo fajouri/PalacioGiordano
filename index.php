@@ -110,13 +110,17 @@
             </div>
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img class="rotate" src="Content/Theme/img/icon/Logo BookingCom (SVG-240p) - FileVector69.svg" alt="Generic placeholder image">
+                <a href="https://www.booking.com/hotel/it/palazzo-giordano.it.html?aid=807124;sid=1cabbc01a293ee8d255ac2db5ed55efe;dest_id=-127698;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1592299342;srpvid=4ec141e6ed78019d;type=total;ucfs=1&#hotelTmpl">
+                    <img class="rotate" src="Content/Theme/img/icon/Logo BookingCom (SVG-240p) - FileVector69.svg" alt="Generic placeholder image">
+                </a>
                 <!-- <h3>Esperienze</h3> -->
-                <p class="lead">Condividi la tue esperienza e i tuoi consigli</p>
+                <p class="lead">Condividi la tua esperienza e i tuoi consigli</p>
             </div>
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img class="rotate" src="Content/Theme/img/icon/002-instagram-sketched.svg" alt="Generic placeholder image">
+                <a href="https://www.instagram.com/palazzo_giordano3/">
+                    <img class="rotate" src="Content/Theme/img/icon/002-instagram-sketched.svg" alt="Generic placeholder image">
+                </a>
                 <!-- <h3>Instagram</h3> -->
                 <p class="lead">Foto sempre aggiornate</p>
             </div>
@@ -139,7 +143,7 @@
                     Clementina e la sua famiglia vi danno il benvenuto al B&B Palazzo Giordano a San Giuseppe Vesuviano, sulle pendici del Vesuvio a 12km da Pompei, 14km da Sarno e 30 km da Napoli.  Situato al centro di San Giuseppe Vesuviano, nel nostro Bed and Breakfast ti sentirai come in famiglia. Rilassati in una delle nostre camere o appartamenti ideali per accogliere coppie, famiglie o gruppi di amici.
                 </p>
                 <p class="lead">
-                    In posizione privilegiata, con vista sul Duomo, il Bed & Breakfast Palazzo Giordano è vicinissimo alla stazione dei treni collegata con i principali siti di turismo, vicina a negozi, bar e ristoranti. Ideale anche per viaggi di lavoro e di studio, con possibilità di soggiorni lunghi a prezzi ridotti. Per la tua vacanza in movimento in Campania, ti aspettiamo al B&B Palazzo Giordano. Scopri i nostri servizi e contattaci per maggiori informazioni.
+                    In posizione privilegiata, con vista sul Santuario, il Bed & Breakfast Palazzo Giordano è vicinissimo alla stazione dei treni collegata con i principali siti di turismo, vicina a negozi, bar e ristoranti. Ideale anche per viaggi di lavoro e di studio, con possibilità di soggiorni lunghi a prezzi ridotti. Per la tua vacanza in movimento in Campania, ti aspettiamo al B&B Palazzo Giordano. Scopri i nostri servizi e contattaci per maggiori informazioni.
                 </p>
             </div>
         </div>
@@ -211,7 +215,7 @@
 <div id="camere" class="content-section-a">
     <div class="container">
 	        <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
+            <div class="col-md-12 text-center wrap_title ">
                 <h2 class="section-heading">Camere</h2>
                 <!-- <p class="lead">gli appartamenti sono molto apprezzati da parenti e ospiti di sposi che desiderano fare foto prima della celebrazione.</p> -->
             </div>
@@ -231,7 +235,7 @@
                     </a> -->
                     <a href="Content/Theme/img/camere/foto/camere3.JPG" class="image-link">
                         <div class="item">
-                            <img class="img-rounded" src="Content/Theme/img/camere/foto/camere3.JPG" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere3.JPG" alt="Owl Image">
                         </div>
                     </a>
                     <a href="Content/Theme/img/camere/foto/camere4.JPG" class="image-link">
@@ -257,26 +261,26 @@
                 </div>
             </div>
             <div class="col-sm-6 wow fadeInRightBig">
-				                <h3>Camere</h3>
-								<ul class="descp lead2">
-                                    <li><i class="glyphicon glyphicon-leaf"></i>Camere per 2 o 3 persone</li>
-                                    <li><i class="glyphicon glyphicon-leaf"></i>Appartamenti per fino a 6 persone</li>
-                                    <li><i class="glyphicon glyphicon-leaf"></i>Cambio asciugamani ogni 3 giorni</li>
-                                    <li><i class="glyphicon glyphicon-leaf"></i>Cambio lenzuola dopo 7 giorni</li>
+                <h3>Camere</h3>
+                <ul class="descp lead2">
+                    <li><i class="glyphicon glyphicon-leaf"></i>Camere per 2 o 3 persone</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Appartamenti per fino a 6 persone</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Cambio asciugamani ogni 3 giorni</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Cambio lenzuola dopo 7 giorni</li>
 
-                                </ul>
-                                <h3>Confort</h3>
-                                <ul class="descp lead2">
-                                    <li><i class="glyphicon glyphicon-leaf"></i>Tv, Macchina del caffe’, Bollitore</li>
-                                    <li><i class="glyphicon glyphicon-leaf"></i>Aria condizionata fredda/calda, Ventilatore</li>
-                                    <li><i class="glyphicon glyphicon-leaf"></i>Bagno privato, Asciugacapelli, Set di cortesia</li>
-                                </ul>
+                </ul>
+                <h3>Confort</h3>
+                <ul class="descp lead2">
+                    <li><i class="glyphicon glyphicon-leaf"></i>Tv, Macchina del caffe’, Bollitore</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Aria condizionata fredda/calda, Ventilatore</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Bagno privato, Asciugacapelli, Set di cortesia</li>
+                </ul>
 
-                                <h3>Disponible solo in alcune camere</h3>
-                                <ul class="descp lead2">
-                                    <li><i class="glyphicon glyphicon-leaf"></i>Wifi</li>
-                                    <li><i class="glyphicon glyphicon-leaf"></i>Cucina</li>
-                                </ul>
+                <h3>Disponible solo in alcune camere</h3>
+                <ul class="descp lead2">
+                    <li><i class="glyphicon glyphicon-leaf"></i>Wifi</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i>Cucina</li>
+                </ul>
             </div>
 		</div>
     </div>
