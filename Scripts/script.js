@@ -38,11 +38,14 @@ $(document).ready(function() {
 
 		// OwlCarousel N2
 		$("#owl-demo-1").owlCarousel({
-		      autoPlay: 2400,
-			  navigation : false, // Show next and prev buttons
-			  slideSpeed : 2400,
-			  paginationSpeed : 2400,
-			  singleItem:true
+			//   autoPlay: 3000,
+			//   navigation : false, // Show next and prev buttons
+			//   slideSpeed : 300,
+			//   paginationSpeed : 3000,
+			//   singleItem:true
+			autoPlay: 3000,
+			items : 1,
+			navigation : false
 		});
 
 		//SmothScroll

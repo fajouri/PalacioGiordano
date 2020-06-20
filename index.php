@@ -11,7 +11,10 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="Bead&Breakfast, b&b, Hotel">
     <meta name="author" content="">
-
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>Palazzo Giordano</title>
 
     <!-- Bootstrap core CSS -->
@@ -32,8 +35,6 @@
 
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="Content/Theme/css/magnific-popup.css">
-
-	<script src="Scripts/modernizr-2.8.3.js"></script>
 </head>
 
 <body id="home">
@@ -162,43 +163,36 @@
         </div>
         <div class="row wow bounceInUp">
             <div id="owl-demo" class="owl-carousel">
-
                 <a href="Content/Theme/img/camere/1.jpg" class="image-link">
                     <div class="item">
                         <img class="img-responsive img-rounded" src="Content/Theme/img/camere/1.jpg" alt="Owl Image">
                     </div>
                 </a>
-
                 <a href="Content/Theme/img/camere/2.jpg" class="image-link">
                     <div class="item">
                         <img class="img-responsive img-rounded" src="Content/Theme/img/camere/2.jpg" alt="Owl Image">
                     </div>
                 </a>
-
                 <a href="Content/Theme/img/camere/5.jpg" class="image-link">
                     <div class="item">
                         <img class="img-responsive img-rounded" src="Content/Theme/img/camere/5.jpg" alt="Owl Image">
                     </div>
                 </a>
-
                 <a href="Content/Theme/img/camere/7.jpg" class="image-link">
                     <div class="item">
                         <img class="img-responsive img-rounded" src="Content/Theme/img/camere/7.jpg" alt="Owl Image">
                     </div>
                 </a>
-
                 <a href="Content/Theme/img/camere/11.jpg" class="image-link">
                     <div class="item">
                         <img class="img-responsive img-rounded" src="Content/Theme/img/camere/11.jpg" alt="Owl Image">
                     </div>
                 </a>
-
                 <a href="Content/Theme/img/camere/20.jpg" class="image-link">
                     <div class="item">
                         <img class="img-responsive img-rounded" src="Content/Theme/img/camere/20.jpg" alt="Owl Image">
                     </div>
                 </a>
-
                 <a href="Content/Theme/img/camere/99.jpg" class="image-link">
                     <div class="item">
                         <img class="img-responsive img-rounded" src="Content/Theme/img/camere/99.jpg" alt="Owl Image">
@@ -207,14 +201,12 @@
             </div>
         </div>
     </div>
-
-
 </div>
 
 <!-- camere -->
 <div id="camere" class="content-section-a">
     <div class="container">
-	        <div class="row">
+	    <div class="row">
             <div class="col-md-12 text-center wrap_title ">
                 <h2 class="section-heading">Camere</h2>
                 <!-- <p class="lead">gli appartamenti sono molto apprezzati da parenti e ospiti di sposi che desiderano fare foto prima della celebrazione.</p> -->
@@ -228,11 +220,6 @@
                             <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere1.JPG" alt="Owl Image">
                         </div>
                     </a>
-                    <!-- <a href="Content/Theme/img/camere/foto/camere2.png>" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/22.jpg" alt="Owl Image">
-                        </div>
-                    </a> -->
                     <a href="Content/Theme/img/camere/foto/camere3.JPG" class="image-link">
                         <div class="item">
                             <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere3.JPG" alt="Owl Image">
@@ -243,11 +230,6 @@
                             <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere4.JPG" alt="Owl Image">
                         </div>
                     </a>
-                    <!-- <a href="Content/Theme/img/camere/foto/camere5.JPG" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere5.JPG" alt="Owl Image">
-                        </div>
-                    </a> -->
                     <a href="Content/Theme/img/camere/foto/camere6.JPG" class="image-link">
                         <div class="item">
                             <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere6.JPG" alt="Owl Image">
@@ -415,9 +397,6 @@
         </div>
     </div>
 </div>
-
-
-
 <footer>
     <div class="container">
         <div class="row">
@@ -434,6 +413,7 @@
 </footer>
 
     <!-- JavaScript -->
+    <script src="Scripts/modernizr-2.6.2.min.js"></script>
     <script src="Scripts/jquery-1.10.2.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
 	<script src="Scripts/owl.carousel.js"></script>
@@ -460,4 +440,4 @@
 	<!-- Magnific Popup core JS file -->
 	<script src="Scripts/jquery.magnific-popup.js"></script>
 </body>
-<Html>
+</Html>
