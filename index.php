@@ -4,12 +4,12 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!-->
-<html>
+<html lang="it">
  <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Bead&Breakfast, b&b, Hotel">
+    <meta name="description" content="Bead&Breakfast, b&b, Hotel, affitacamere, San Giuseppe Vesuviano, Napoli">
     <meta name="author" content="">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -58,7 +58,7 @@
     <!-- /.container -->
     <div class="col-xs-12 text-center abcen wow fadeIn">
         <div class="button_down ">
-            <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#benvenuti"> <img class="img_scroll" src="Content/Theme/img/icon/circle.png" alt=""> </a>
+            <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#benvenuti"> <img class="img_scroll" src="Content/Theme/img/icon/circle.png" alt="b&b San giuseppe Vesuviano Napoli Vesuvio"> </a>
         </div>
     </div>
 </div>
@@ -105,14 +105,14 @@
         <div class="row">
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img class="rotate" src="Content/Theme/img/icon/001-facebook.svg" alt="Generic placeholder image">
+                <img class="rotate" src="Content/Theme/img/icon/001-facebook.svg" alt="b&b San giuseppe Vesuviano Napoli Facebook">
                 <!-- <h3>Seguici</h3> -->
                 <p class="lead">Diventa amico su fb e conosci tutte le novità e le promozioni</p>
             </div>
 
             <div class="col-sm-4 wow fadeInDown text-center">
                 <a href="https://www.booking.com/hotel/it/palazzo-giordano.it.html?aid=807124;sid=1cabbc01a293ee8d255ac2db5ed55efe;dest_id=-127698;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1592299342;srpvid=4ec141e6ed78019d;type=total;ucfs=1&#hotelTmpl">
-                    <img class="rotate" src="Content/Theme/img/icon/Logo BookingCom (SVG-240p) - FileVector69.svg" alt="Generic placeholder image">
+                    <img class="rotate" src="Content/Theme/img/icon/Logo BookingCom (SVG-240p) - FileVector69.svg" alt="b&b San giuseppe Vesuviano Napoli Booking">
                 </a>
                 <!-- <h3>Esperienze</h3> -->
                 <p class="lead">Condividi la tua esperienza e i tuoi consigli</p>
@@ -120,7 +120,7 @@
 
             <div class="col-sm-4 wow fadeInDown text-center">
                 <a href="https://www.instagram.com/palazzo_giordano3/">
-                    <img class="rotate" src="Content/Theme/img/icon/002-instagram-sketched.svg" alt="Generic placeholder image">
+                    <img class="rotate" src="Content/Theme/img/icon/002-instagram-sketched.svg" alt="b&b San giuseppe Vesuviano Napoli instagram">
                 </a>
                 <!-- <h3>Instagram</h3> -->
                 <p class="lead">Foto sempre aggiornate</p>
@@ -136,7 +136,7 @@
         <div class="row">
             <div class="col-sm-6 pull-right wow fadeInRightBig">
                 <h3 class="section-heading"></h3>
-                <img class="img-responsive img-rounded " src="Content/Theme/img/sangiusepenatale.jpg" alt="">
+                <img class="img-responsive img-rounded " src="Content/Theme/img/sangiusepenatale.jpg" alt="b&b San giuseppe Vesuviano Napoli Piazza">
             </div>
             <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
                 <h3 class="section-heading">Chi siamo</h3>
@@ -165,37 +165,37 @@
             <div id="owl-demo" class="owl-carousel">
                 <a href="Content/Theme/img/camere/1.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/1.jpg" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/1.jpg" alt="b&b San giuseppe Vesuviano Napoli camere">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/2.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/2.jpg" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/2.jpg" alt="b&b San giuseppe Vesuviano Napoli patio">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/5.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/5.jpg" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/5.jpg" alt="b&b San giuseppe Vesuviano Napoli Terrazo">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/7.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/7.jpg" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/7.jpg" alt="b&b San giuseppe Vesuviano Napoli vacanze">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/11.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/11.jpg" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/11.jpg" alt="b&b San giuseppe Vesuviano Napoli collazione">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/20.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/20.jpg" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/20.jpg" alt="b&b San giuseppe Vesuviano Napoli Natura">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/99.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/99.jpg" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/99.jpg" alt="b&b San giuseppe Vesuviano Napoli Relax">
                     </div>
                 </a>
             </div>
@@ -217,27 +217,27 @@
 			    <div id="owl-demo-1" class="owl-carousel">
                     <a href="Content/Theme/img/camere/foto/camere1.JPG" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere1.JPG" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere1.JPG" alt="b&b San giuseppe Vesuviano Napoli camere">
                         </div>
                     </a>
                     <a href="Content/Theme/img/camere/foto/camere3.JPG" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere3.JPG" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere3.JPG" alt="b&b San giuseppe Vesuviano Napoli famiglia">
                         </div>
                     </a>
                     <a href="Content/Theme/img/camere/foto/camere4.JPG" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere4.JPG" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere4.JPG" alt="b&b San giuseppe Vesuviano Napoli centro">
                         </div>
                     </a>
                     <a href="Content/Theme/img/camere/foto/camere6.JPG" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere6.JPG" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere6.JPG" alt="b&b San giuseppe Vesuviano Napoli studio">
                         </div>
                     </a>
                     <a href="Content/Theme/img/camere/15.jpg" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/15.jpg" alt="Owl Image">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/15.jpg" alt="b&b San giuseppe Vesuviano Napoli Matrimoni">
                         </div>
                     </a>
                 </div>
@@ -278,25 +278,25 @@
         <div class="row">
 
             <div class="col-sm-3 wow fadeInDown text-center">
-                <img class="rotate" src="Content/Theme/img/icon/bicycle.svg" alt="biclette gratis">
+                <img class="rotate" src="Content/Theme/img/icon/bicycle.svg" alt="b&b San giuseppe Vesuviano Napoli biclette gratis">
                 <h3>Biciclette</h3>
                 <p class="lead">gratis (solo con deposito)</p>
             </div>
 
             <div class="col-sm-3 wow fadeInDown text-center">
-                <img class="rotate" src="Content/Theme/img/icon/books-svgrepo-com.svg" alt="libri gratis">
+                <img class="rotate" src="Content/Theme/img/icon/books-svgrepo-com.svg" alt="b&b San giuseppe Vesuviano Napoli libri gratis">
                 <h3>Libri</h3>
                 <p class="lead">in varie lingue</p>
             </div>
 
             <div class="col-sm-3 wow fadeInDown text-center">
-                <img class="rotate" src="Content/Theme/img/icon/casino.svg" alt="Giochi di società">
+                <img class="rotate" src="Content/Theme/img/icon/casino.svg" alt="b&b San giuseppe Vesuviano Napoli Giochi di società">
                 <h3>Giochi di società</h3>
                 <p class="lead"></p>
             </div>
 
             <div class="col-sm-3 wow fadeInDown text-center">
-                <img class="rotate" src="Content/Theme/img/icon/pet.jpg" alt="Pet friendly">
+                <img class="rotate" src="Content/Theme/img/icon/pet.jpg" alt="b&b San giuseppe Vesuviano Napoli Pet friendly">
                 <h3>Pet friendly</h3>
                 <p class="lead">animali domestici ammessi</p>
             </div>
