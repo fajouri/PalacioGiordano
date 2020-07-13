@@ -1,3 +1,30 @@
+<?php
+	
+	// Start a Session, You might start this somewhere else already.
+		session_start();
+
+	// What languages do we support
+	$available_langs = array('en','fr','it');
+
+	// Set our default language session ONLY if we've got nothing
+	if ($_SESSION['lang']=='') {
+		$_SESSION['lang'] = 'it';
+
+	}  
+
+  if(isset($_GET['lang']) && $_GET['lang'] != ''){ 
+    // check if the language is one we support
+    if(in_array($_GET['lang'], $available_langs))
+    {       
+      $_SESSION['lang'] = $_GET['lang']; // Set session
+    }
+  }
+  
+  // Include active language
+  include('languages/'.$_SESSION['lang'].'/lang.'.$_SESSION['lang'].'.php');
+  
+?>
+
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -43,26 +70,6 @@
 	<div id="preloader">
 		<div id="status"></div>
 	</div>
-
-<!-- FullScreen -->
-<div class="intro-header">
-    <div class="col-xs-12 text-center abcen1">
-        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Palazzo Giordano</h1>
-        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">sentirsi a casa viaggiando</h3>
-        <ul class="list-inline intro-social-buttons">
-            <li>
-                <a href="https://www.booking.com/hotel/it/palazzo-giordano.it.html?aid=807124;sid=1cabbc01a293ee8d255ac2db5ed55efe;dest_id=-127698;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1592299342;srpvid=4ec141e6ed78019d;type=total;ucfs=1&#hotelTmpl" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Booking</span></a>
-            </li>
-        </ul>
-    </div>
-    <!-- /.container -->
-    <div class="col-xs-12 text-center abcen wow fadeIn">
-        <div class="button_down ">
-            <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#benvenuti"> <img class="img_scroll" src="Content/Theme/img/icon/circle.png" alt="b&b San giuseppe Vesuviano Napoli Vesuvio"> </a>
-        </div>
-    </div>
-</div>
-
 <!-- NavBar-->
 <nav class="navbar-default" role="navigation">
     <div class="container">
@@ -79,35 +86,85 @@
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
             <ul class="nav navbar-nav">
 
-                <li class="menuItem"><a href="#benvenuti">Benvenuti</a></li>
-                <li class="menuItem"><a href="#chisiamo">Chi siamo</a></li>
-                <li class="menuItem"><a href="#galleria">Galleria</a></li>
-                <li class="menuItem"><a href="#camere">Camere</a></li>
-                <li class="menuItem"><a href="#serviziextra">Servizi extra</a></li>
-                <li class="menuItem"><a href="#dovesiamo">Dove siamo</a></li>
-                <li class="menuItem"><a href="#contati">Contatti</a></li>
-
+                <li class="menuItem"><a href="#benvenuti"><?php echo $lang['Benvenuti']; ?></a></li>
+                <li class="menuItem"><a href="#chisiamo"><?php echo $lang['ChiSiamo']; ?></a></li>
+                <li class="menuItem"><a href="#galleria"><?php echo $lang['Galleria']; ?></a></li>
+                <li class="menuItem"><a href="#camere"><?php echo $lang['Camere']; ?></a></li>
+                <li class="menuItem"><a href="#serviziextra"><?php echo $lang['ServiziExtra']; ?></a></li>
+                <li class="menuItem"><a href="#dovesiamo"><?php echo $lang['DoveSiamo']; ?></a></li>
+                <li class="menuItem"><a href="#contati"><?php echo $lang['Contatti']; ?></a></li>             
+                <li class="dropdown language-selector">
+    
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
+    Language
+  </a>
+  <ul class="dropdown-menu pull-right">
+            <li class="active">
+            <a href="?lang=en" >
+                <span>English</span>
+            </a>
+            </li>
+            <li>
+            <a href="?lang=fr" >
+                <span>François</span>
+            </a>
+            </li>
+            <li>
+            <a href="?lang=it" >
+                <span>Italiano</span>
+            </a>
+            </li>
+            <li>
+            <a href="?lang=es" >
+                <span>Español</span>
+            </a>
+            </li>
+        </ul>
+        </li>
             </ul>
         </div>
-
     </div>
 </nav>
+<!-- FullScreen -->
+<div class="intro-header">
+    <div class="col-xs-12 text-center abcen1">
+        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Palazzo Giordano</h1>
+        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s"><?php echo $lang['WelcomeMessage']; ?></h3>
+        <!-- <ul class="list-inline intro-social-buttons">
+            <li>
+            <a href="?lang=it" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Italiano</span></a>
+            <a href="?lang=en" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">English</span></a>
+            <a href="?lang=fr" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Français</span></a>
+            </li>
+        </ul> -->
+    </div>
+    <!-- /.container -->
+    <div class="col-xs-12 text-center abcen wow fadeIn">
+        <div class="button_down ">
+            <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#benvenuti"> <img class="img_scroll" src="Content/Theme/img/icon/circle.png" alt="b&b San giuseppe Vesuviano Napoli Vesuvio"> </a>
+        </div>
+    </div>
+</div>
+
+
 
 <!-- benvenuti -->
 <div id="benvenuti" class="content-section-b" style="border-top: 0">
     <div class="container">
 
         <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-            <h2>Benvenuti</h2>
-            <p class="lead" style="margin-top:0">ti aspettiamo</p>
+            <h2><?php echo $lang['Benvenuti']; ?></h2>
+            <p class="lead" style="margin-top:0"><?php echo $lang['BenvenutiMessage']; ?></p>
         </div>
 
         <div class="row">
 
             <div class="col-sm-4 wow fadeInDown text-center">
+            <a href="?lang=en">
                 <img class="rotate" src="Content/Theme/img/icon/001-facebook.svg" alt="b&b San giuseppe Vesuviano Napoli Facebook">
                 <!-- <h3>Seguici</h3> -->
-                <p class="lead">Diventa amico su fb e conosci tutte le novità e le promozioni</p>
+                <p class="lead"><?php echo $lang['FB']; ?></p>
+            </a>
             </div>
 
             <div class="col-sm-4 wow fadeInDown text-center">
@@ -115,7 +172,7 @@
                     <img class="rotate" src="Content/Theme/img/icon/Logo BookingCom (SVG-240p) - FileVector69.svg" alt="b&b San giuseppe Vesuviano Napoli Booking">
                 </a>
                 <!-- <h3>Esperienze</h3> -->
-                <p class="lead">Condividi la tua esperienza e i tuoi consigli</p>
+                <p class="lead"><?php echo $lang['Booking']; ?></p>
             </div>
 
             <div class="col-sm-4 wow fadeInDown text-center">
@@ -123,7 +180,7 @@
                     <img class="rotate" src="Content/Theme/img/icon/002-instagram-sketched.svg" alt="b&b San giuseppe Vesuviano Napoli instagram">
                 </a>
                 <!-- <h3>Instagram</h3> -->
-                <p class="lead">Foto sempre aggiornate</p>
+                <p class="lead"><?php echo $lang['Instagram']; ?></p>
             </div>
 
         </div>
@@ -139,12 +196,12 @@
                 <img class="img-responsive img-rounded " src="Content/Theme/img/sangiusepenatale.jpg" alt="b&b San giuseppe Vesuviano Napoli Piazza">
             </div>
             <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
-                <h3 class="section-heading">Chi siamo</h3>
+                <h3 class="section-heading"><?php echo $lang['ChiSiamo']; ?></h3>
                 <p class="lead">
-                    Clementina e la sua famiglia vi danno il benvenuto al B&B Palazzo Giordano a San Giuseppe Vesuviano, sulle pendici del Vesuvio a 12km da Pompei, 14km da Sarno e 30 km da Napoli.  Situato al centro di San Giuseppe Vesuviano, nel nostro Bed and Breakfast ti sentirai come in famiglia. Rilassati in una delle nostre camere o appartamenti ideali per accogliere coppie, famiglie o gruppi di amici.
+                <?php echo $lang['ChiSiamo1']; ?>
                 </p>
                 <p class="lead">
-                    In posizione privilegiata, con vista sul Santuario, il Bed & Breakfast Palazzo Giordano è vicinissimo alla stazione dei treni collegata con i principali siti di turismo, vicina a negozi, bar e ristoranti. Ideale anche per viaggi di lavoro e di studio, con possibilità di soggiorni lunghi a prezzi ridotti. Per la tua vacanza in movimento in Campania, ti aspettiamo al B&B Palazzo Giordano. Scopri i nostri servizi e contattaci per maggiori informazioni.
+                <?php echo $lang['ChiSiamo2']; ?>
                 </p>
             </div>
         </div>
@@ -157,7 +214,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-                <h2>Galleria</h2>
+                <h2><?php echo $lang['Camere']; ?></h2>
                 <p class="lead" style="margin-top:0"></p>
             </div>
         </div>
@@ -208,7 +265,7 @@
     <div class="container">
 	    <div class="row">
             <div class="col-md-12 text-center wrap_title ">
-                <h2 class="section-heading">Camere</h2>
+                <h2 class="section-heading"><?php echo $lang['Camere']; ?></h2>
                 <!-- <p class="lead">gli appartamenti sono molto apprezzati da parenti e ospiti di sposi che desiderano fare foto prima della celebrazione.</p> -->
             </div>
         </div>
@@ -243,25 +300,25 @@
                 </div>
             </div>
             <div class="col-sm-6 wow fadeInRightBig">
-                <h3>Camere</h3>
+                <h3><?php echo $lang['Camere']; ?></h3>
                 <ul class="descp lead2">
-                    <li><i class="glyphicon glyphicon-leaf"></i>Camere per 2 o 3 persone</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Appartamenti per fino a 6 persone</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Cambio asciugamani ogni 3 giorni</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Cambio lenzuola dopo 7 giorni</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereDescription1']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereDescription2']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereDescription3']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereDescription4']; ?></li>
 
                 </ul>
-                <h3>Confort</h3>
+                <h3><?php echo $lang['CamereConfort']; ?>Confort</h3>
                 <ul class="descp lead2">
-                    <li><i class="glyphicon glyphicon-leaf"></i>Tv, Macchina del caffe’, Bollitore</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Aria condizionata fredda/calda, Ventilatore</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Bagno privato, Asciugacapelli, Set di cortesia</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereConfort1']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereConfort2']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereConfort3']; ?></li>
                 </ul>
 
-                <h3>Disponible solo in alcune camere</h3>
+                <h3><?php echo $lang['CamereDisponible']; ?></h3>
                 <ul class="descp lead2">
-                    <li><i class="glyphicon glyphicon-leaf"></i>Wifi</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Cucina</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereDisponible1']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereDisponible2']; ?></li>
                 </ul>
             </div>
 		</div>
@@ -272,35 +329,34 @@
     <div class="container">
 
         <div class="col-md-12 text-center wrap_title">
-            <h2>Servizi extra</h2>
+            <h2><?php echo $lang['ServiziExtra']; ?></h2>
             <!-- <p class="lead" style="margin-top:0">ti aspettiamo</p> -->
         </div>
         <div class="row">
 
             <div class="col-sm-3 wow fadeInDown text-center">
                 <img class="rotate" src="Content/Theme/img/icon/bicycle.svg" alt="b&b San giuseppe Vesuviano Napoli biclette gratis">
-                <h3>Biciclette</h3>
-                <p class="lead">gratis (solo con deposito)</p>
+                <h3><?php echo $lang['ServiziExtraBici1']; ?></h3>
+                <p class="lead"><?php echo $lang['ServiziExtraBici2']; ?></p>
             </div>
 
             <div class="col-sm-3 wow fadeInDown text-center">
                 <img class="rotate" src="Content/Theme/img/icon/books-svgrepo-com.svg" alt="b&b San giuseppe Vesuviano Napoli libri gratis">
-                <h3>Libri</h3>
-                <p class="lead">in varie lingue</p>
+                <h3><?php echo $lang['ServiziExtraLibri1']; ?></h3>
+                <p class="lead"><?php echo $lang['ServiziExtraLibri2']; ?></p>
             </div>
 
             <div class="col-sm-3 wow fadeInDown text-center">
                 <img class="rotate" src="Content/Theme/img/icon/casino.svg" alt="b&b San giuseppe Vesuviano Napoli Giochi di società">
-                <h3>Giochi di società</h3>
+                <h3><?php echo $lang['ServiziExtraGiochi']; ?></h3>
                 <p class="lead"></p>
             </div>
 
             <div class="col-sm-3 wow fadeInDown text-center">
                 <img class="rotate" src="Content/Theme/img/icon/pet.jpg" alt="b&b San giuseppe Vesuviano Napoli Pet friendly">
-                <h3>Pet friendly</h3>
-                <p class="lead">animali domestici ammessi</p>
+                <h3><?php echo $lang['ServiziExtraPet1']; ?></h3>
+                <p class="lead"><?php echo $lang['ServiziExtraPet2']; ?></p>
             </div>
-
         </div>
     </div>
 </div>
@@ -310,8 +366,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-                <h2>Dove siamo</h2>
-                <p class="lead" style="margin-top:0">nel cuore di San Giuseppe</p>
+                <h2><?php echo $lang['DoveSiamo']; ?></h2>
+                <p class="lead" style="margin-top:0"><?php echo $lang['DoveSiamo1']; ?></p>
             </div>
         </div>
         <div class="row">
@@ -321,20 +377,20 @@
             </a>
             </div>
             <div class="col-sm-6 wow fadeInRightBig">
-                <h3>Attrazioni popolari</h3>
+                <h3><?php echo $lang['AttrazioniPopolari']; ?></h3>
                 <ul class="descp lead2">
-                    <li><i class="glyphicon glyphicon-leaf"></i>Napoli 29km</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Salerno 28km</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Vesuvio 26km</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Scavi di Pompei 10km</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Scavi di Ercolano 25km</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Circuito Internazionale di Napoli 7,7 km  </li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['AttrazioniPopolari1']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['AttrazioniPopolari2']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['AttrazioniPopolari3']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['AttrazioniPopolari4']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['AttrazioniPopolari5']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['AttrazioniPopolari6']; ?></li>
                 </ul>
-                <h3>In zona</h3>
+                <h3><?php echo $lang['Inzona']; ?></h3>
                 <ul class="descp lead2">
-                    <li><i class="glyphicon glyphicon-leaf"></i>Stazione circumvesuviana 400m 6 min</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Istituto Paritario Enrico de Nicola 350m 5 min</li>
-                    <li><i class="glyphicon glyphicon-leaf"></i>Casa di Salute Santa Lucia 750m 10 min</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['Inzona1']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['Inzona2']; ?></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['Inzona3']; ?></li>
                 </ul>
             </div>
 		</div>
@@ -355,23 +411,23 @@
         	<form role="form" action="mail.php" method="POST" >
 				<div class="col-md-6">
 					<div class="form-group">
-						<label for="InputName">Nome</label>
+						<label for="InputName"><?php echo $lang['Nome']; ?></label>
 						<div class="input-group">
-							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="nome" required>
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="<?php echo $lang['Nome']; ?>" required>
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label for="InputEmail">Email</label>
+						<label for="InputEmail"><?php echo $lang['Email']; ?></label>
 						<div class="input-group">
-							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="email" required  >
+							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="<?php echo $lang['Email']; ?>" required  >
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label for="InputMessage">Mesaggio</label>
+						<label for="InputMessage"><?php echo $lang['Mesaggio']; ?></label>
 						<div class="input-group">
 							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
@@ -384,13 +440,13 @@
 
 			<div class="col-md-5 col-md-push-1 address">
 				<address>
-					<h3>Email</h3>
+					<h3><?php echo $lang['Email']; ?></h3>
 					<p class="lead">info@palazzogiordano.it</p>
 				</address>
 			</div>
             <div class="col-md-5 col-md-push-1 address">
               <address>
-					<h3>Telefono</h3>
+					<h3><?php echo $lang['Telefono']; ?></h3>
 					<p class="lead">+39 351 0782 565</p>
 				</address>
             </div>
