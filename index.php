@@ -51,17 +51,17 @@
     <link href="Content/Theme/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom CSS-->
-    <link href="Content/Theme/css/general.css" rel="stylesheet">
+    <link href="Content/Theme/css/general.min.css" rel="stylesheet">
 
     <!-- Owl-Carousel -->
-    <link href="Content/Theme/css/custom.css" rel="stylesheet">
-    <link href="Content/Theme/css/owl.carousel.css" rel="stylesheet">
-    <link href="Content/Theme/css/owl.theme.css" rel="stylesheet">
-    <link href="Content/Theme/css/style.css" rel="stylesheet">
-    <link href="Content/Theme/css/animate.css" rel="stylesheet">
+    <link href="Content/Theme/css/custom.min.css" rel="stylesheet">
+    <link href="Content/Theme/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="Content/Theme/css/owl.theme.min.css" rel="stylesheet">
+    <link href="Content/Theme/css/style.min.css" rel="stylesheet">
+    <link href="Content/Theme/css/animate.min.css" rel="stylesheet">
 
     <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="Content/Theme/css/magnific-popup.css">
+    <link rel="stylesheet" href="Content/Theme/css/magnific-popup.min.css">
 </head>
 
 <body id="home">
@@ -213,17 +213,17 @@
             <div id="owl-demo" class="owl-carousel">
                 <a href="Content/Theme/img/camere/1.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/1.jpg" alt="b&b San giuseppe Vesuviano Napoli camere">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/1.s.jpg" alt="b&b San giuseppe Vesuviano Napoli camere">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/2.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/2.jpg" alt="b&b San giuseppe Vesuviano Napoli patio">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/2.s.jpg" alt="b&b San giuseppe Vesuviano Napoli patio">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/5.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/5.jpg" alt="b&b San giuseppe Vesuviano Napoli Terrazo">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/5.s.jpg" alt="b&b San giuseppe Vesuviano Napoli Terrazo">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/7.jpg" class="image-link">
@@ -243,7 +243,7 @@
                 </a>
                 <a href="Content/Theme/img/camere/99.jpg" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/99.jpg" alt="b&b San giuseppe Vesuviano Napoli Relax">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/99.s.jpg" alt="b&b San giuseppe Vesuviano Napoli Relax">
                     </div>
                 </a>
                 <a href="Content/Theme/img/camere/15.jpg" class="image-link">
@@ -479,7 +479,7 @@
     <script src="Scripts/jquery-1.10.2.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
 	<script src="Scripts/owl.carousel.js"></script>
-	<script src="Scripts/script.js"></script>
+	<script src="Scripts/script.min.js"></script>
 	<!-- StikyMenu -->
 	<script src="Scripts/stickUp.min.js"></script>
 	<script type="text/javascript">
@@ -497,7 +497,7 @@
 	<script>
 	 new WOW().init();
 	</script>
-	<script src="Scripts/classie.js"></script>
+	<script src="Scripts/classie.min.js"></script>
 	<script src="Scripts/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
 	<script src="Scripts/jquery.magnific-popup.js"></script>
