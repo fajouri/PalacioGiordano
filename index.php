@@ -93,34 +93,32 @@
                 <li class="menuItem"><a href="#serviziextra"><?php echo $lang['ServiziExtra']; ?></a></li>
                 <li class="menuItem"><a href="#dovesiamo"><?php echo $lang['DoveSiamo']; ?></a></li>
                 <li class="menuItem"><a href="#contati"><?php echo $lang['Contatti']; ?></a></li>             
-                <li class="dropdown language-selector">
-    
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
-    Language
-  </a>
-  <ul class="dropdown-menu pull-right">
-            <li class="active">
-            <a href="?lang=en" >
-                <span>English</span>
-            </a>
-            </li>
-            <li>
-            <a href="?lang=fr" >
-                <span>François</span>
-            </a>
-            </li>
-            <li>
-            <a href="?lang=it" >
-                <span>Italiano</span>
-            </a>
-            </li>
-            <li>
-            <a href="?lang=es" >
-                <span>Español</span>
-            </a>
-            </li>
-        </ul>
-        </li>
+                <!-- <li class="dropdown language-selector">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
+                        <?php echo $lang['Language']; ?>
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                        <li class="active"><a href="?lang=en" >
+                                <span>English</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="?lang=fr" >
+                                <span>François</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="?lang=it" >
+                                <span>Italiano</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="?lang=es" >
+                                <span>Español</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li> -->
             </ul>
         </div>
     </div>
@@ -130,13 +128,6 @@
     <div class="col-xs-12 text-center abcen1">
         <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Palazzo Giordano</h1>
         <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s"><?php echo $lang['WelcomeMessage']; ?></h3>
-        <!-- <ul class="list-inline intro-social-buttons">
-            <li>
-            <a href="?lang=it" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Italiano</span></a>
-            <a href="?lang=en" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">English</span></a>
-            <a href="?lang=fr" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Français</span></a>
-            </li>
-        </ul> -->
     </div>
     <!-- /.container -->
     <div class="col-xs-12 text-center abcen wow fadeIn">
@@ -160,7 +151,7 @@
         <div class="row">
 
             <div class="col-sm-4 wow fadeInDown text-center">
-            <a href="?lang=en">
+            <a href="#">
                 <img class="rotate" src="Content/Theme/img/icon/001-facebook.svg" alt="b&b San giuseppe Vesuviano Napoli Facebook">
                 <!-- <h3>Seguici</h3> -->
                 <p class="lead"><?php echo $lang['FB']; ?></p>
@@ -214,7 +205,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-                <h2><?php echo $lang['Camere']; ?></h2>
+                <h2><?php echo $lang['Galleria']; ?></h2>
                 <p class="lead" style="margin-top:0"></p>
             </div>
         </div>
@@ -255,6 +246,11 @@
                         <img class="img-responsive img-rounded" src="Content/Theme/img/camere/99.jpg" alt="b&b San giuseppe Vesuviano Napoli Relax">
                     </div>
                 </a>
+                <a href="Content/Theme/img/camere/15.jpg" class="image-link">
+                    <div class="item">
+                        <img class="img-responsive img-rounded" src="Content/Theme/img/camere/15.jpg" alt="b&b San giuseppe Vesuviano Napoli Relax">
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -269,8 +265,8 @@
                 <!-- <p class="lead">gli appartamenti sono molto apprezzati da parenti e ospiti di sposi che desiderano fare foto prima della celebrazione.</p> -->
             </div>
         </div>
-        <div class="row">
-	        <div class="col-sm-6 pull-left wow fadeInLeftBig">
+        <div class="row  wow">
+	        <div class="col-sm-6 wow fadeInLeftBig">
 			    <div id="owl-demo-1" class="owl-carousel">
                     <a href="Content/Theme/img/camere/foto/camere1.JPG" class="image-link">
                         <div class="item">
@@ -292,9 +288,19 @@
                             <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/camere6.JPG" alt="b&b San giuseppe Vesuviano Napoli studio">
                         </div>
                     </a>
-                    <a href="Content/Theme/img/camere/15.jpg" class="image-link">
+                    <a href="Content/Theme/img/camere/foto/breakfast.jpg" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/15.jpg" alt="b&b San giuseppe Vesuviano Napoli Matrimoni">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/breakfast.jpg" alt="b&b San giuseppe Vesuviano Napoli Matrimoni">
+                        </div>
+                    </a>
+                    <a href="Content/Theme/img/camere/foto/greenroom.jpg" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/greenroom.jpg" alt="b&b San giuseppe Vesuviano Napoli Matrimoni">
+                        </div>
+                    </a>
+                    <a href="Content/Theme/img/camere/foto/frigo.jpg" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="Content/Theme/img/camere/foto/frigo.jpg" alt="b&b San giuseppe Vesuviano Napoli Matrimoni">
                         </div>
                     </a>
                 </div>

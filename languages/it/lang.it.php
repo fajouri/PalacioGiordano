@@ -50,4 +50,5 @@
   $lang['Mesaggio'] = 'Mesaggio';
   $lang['Invio'] = 'Invio'; 
   $lang['Telefono'] = 'Telefono';  
+  $lang['Language'] = 'Language';
 ?>
