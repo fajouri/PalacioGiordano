@@ -93,12 +93,12 @@
                 <li class="menuItem"><a href="#serviziextra"><?php echo $lang['ServiziExtra']; ?></a></li>
                 <li class="menuItem"><a href="#dovesiamo"><?php echo $lang['DoveSiamo']; ?></a></li>
                 <li class="menuItem"><a href="#contati"><?php echo $lang['Contatti']; ?></a></li>             
-                <!-- <li class="dropdown language-selector">
+                <li class="dropdown language-selector">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
                         <?php echo $lang['Language']; ?>
                     </a>
                     <ul class="dropdown-menu pull-right">
-                        <li class="active"><a href="?lang=en" >
+                        <li><a href="?lang=en" >
                                 <span>English</span>
                             </a>
                         </li>
@@ -112,13 +112,13 @@
                                 <span>Italiano</span>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="?lang=es" >
                                 <span>Español</span>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
-                </li> -->
+                </li>
             </ul>
         </div>
     </div>
@@ -314,7 +314,7 @@
                     <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereDescription4']; ?></li>
 
                 </ul>
-                <h3><?php echo $lang['CamereConfort']; ?>Confort</h3>
+                <h3><?php echo $lang['CamereConfort']; ?></h3>
                 <ul class="descp lead2">
                     <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereConfort1']; ?></li>
                     <li><i class="glyphicon glyphicon-leaf"></i><?php echo $lang['CamereConfort2']; ?></li>
@@ -440,7 +440,7 @@
 						</div>
 					</div>
 
-					<input type="submit" name="submit" id="submit" value="Invio" class="btn wow tada btn-embossed btn-primary pull-right">
+					<input type="submit" name="submit" id="submit" value="<?php echo $lang['Invio']; ?>" class="btn wow tada btn-embossed btn-primary pull-right">
 				</div>
 			</form>
 
