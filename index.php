@@ -104,7 +104,7 @@
                         </li>
                         <li>
                             <a href="?lang=fr" >
-                                <span>François</span>
+                                <span>Français</span>
                             </a>
                         </li>
                         <li>

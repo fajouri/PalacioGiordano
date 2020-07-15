@@ -15,7 +15,7 @@
  $lang['ChiSiamo2'] = 'Dans une position privilégiée, surplombant le Sanctuaire, le Bed & Breakfast Palazzo Giordano est très proche de la gare reliée aux principaux sites touristiques, à proximité des boutiques, bars et restaurants. Idéal également pour les voyages d`affaires et d`études, avec la possibilité de longs séjours à prix réduits. Pour vos vacances en mouvement en Campanie, nous vous attendons au B&B Palazzo Giordano. Découvrez nos services et contactez-nous pour plus d`informations.';  
  $lang['CamereSubtitle'] = 'Les appartements sont très appréciés par les parents et les invités des mariés qui souhaitent prendre des photos avant la célébration.';  
  $lang['CamereDescription1'] = 'Chambres pour 2 ou 3 personnes';  
- $lang['CamereDescription2'] = 'Appartements pouvant accueillir jusqu`à 6 personnes';  
+ $lang['CamereDescription2'] = 'Appartements qui peuvent accueillir jusqu`à 6 personnes';  
  $lang['CamereDescription3'] = 'Changement de serviettes tous les 3 jours';  
  $lang['CamereDescription4'] = 'Changement des draps après 7 jours';  
  $lang['CamereConfort'] = 'Confort';  
@@ -27,7 +27,7 @@
  $lang['CamereDisponible2'] = 'Cuisine'; 
  $lang['ServiziExtra1'] = 'Pour les amants des loisirs';   
  $lang['ServiziExtraBici1'] = 'Bicyclettes';   
- $lang['ServiziExtraBici2'] = 'gratuits (avec dépôt uniquement)';   
+ $lang['ServiziExtraBici2'] = 'Gratuits (avec dépôt uniquement)';   
  $lang['ServiziExtraLibri1'] = 'Livres';   
  $lang['ServiziExtraLibri2'] = 'En differentes langues';   
  $lang['ServiziExtraGiochi'] = 'Jeux de société';   
