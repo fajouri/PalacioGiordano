@@ -150,15 +150,14 @@
 
         <div class="row">
 
-            <div class="col-sm-4 wow fadeInDown text-center">
+            <!-- <div class="col-sm-4 wow fadeInDown text-center">
             <a href="#">
                 <img class="rotate" src="Content/Theme/img/icon/001-facebook.svg" alt="b&b San giuseppe Vesuviano Napoli Facebook">
-                <!-- <h3>Seguici</h3> -->
                 <p class="lead"><?php echo $lang['FB']; ?></p>
             </a>
-            </div>
+            </div> -->
 
-            <div class="col-sm-4 wow fadeInDown text-center">
+            <div class="col-sm-6 wow fadeInDown text-center">
                 <a href="https://www.booking.com/hotel/it/palazzo-giordano.it.html?aid=807124;sid=1cabbc01a293ee8d255ac2db5ed55efe;dest_id=-127698;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1592299342;srpvid=4ec141e6ed78019d;type=total;ucfs=1&#hotelTmpl">
                     <img class="rotate" src="Content/Theme/img/icon/Logo BookingCom (SVG-240p) - FileVector69.svg" alt="b&b San giuseppe Vesuviano Napoli Booking">
                 </a>
@@ -166,7 +165,7 @@
                 <p class="lead"><?php echo $lang['Booking']; ?></p>
             </div>
 
-            <div class="col-sm-4 wow fadeInDown text-center">
+            <div class="col-sm-6 wow fadeInDown text-center">
                 <a href="https://www.instagram.com/palazzo_giordano3/">
                     <img class="rotate" src="Content/Theme/img/icon/002-instagram-sketched.svg" alt="b&b San giuseppe Vesuviano Napoli instagram">
                 </a>
